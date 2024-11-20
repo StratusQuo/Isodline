@@ -27,7 +27,7 @@ The easiest way to install isocline-d is using [dub](https://dub.pm).  Add the f
 
 ```json
 "dependencies": {
-    "isocline-d": "~>1.0.0"  // or use a specific version or a git url
+    "isocline-d": "~>1.0.0"
 }
 ```
 
