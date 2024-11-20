@@ -1,0 +1,26 @@
+{
+    "name": "isocline-d",
+    "description": "D bindings for Isocline library",
+    "authors": ["Your Name"],
+    "copyright": "Copyright © 2024, Your Name",
+    "license": "MIT",
+    "targetType": "executable",
+    "targetPath": ".",
+    "sourcePaths": ["source"],
+    "importPaths": ["source"],
+    "mainSourceFile": "source/app.d",
+    "libs": ["isocline"],
+    "lflags": ["-L$PACKAGE_DIR/isocline/src"],
+    "preBuildCommands": [
+        "gcc -c $PACKAGE_DIR/isocline/src/isocline.c -o $PACKAGE_DIR/isocline/src/isocline.o -I$PACKAGE_DIR/isocline/include",
+		"ar rcs $PACKAGE_DIR/isocline/src/libisocline.a $PACKAGE_DIR/isocline/src/isocline.o"
+    ],
+    "buildTypes": {
+        "debug": {
+            "buildOptions": ["debugMode", "debugInfo"]
+        },
+        "release": {
+            "buildOptions": ["releaseMode", "optimize", "inline"]
+        }
+    }
+}
