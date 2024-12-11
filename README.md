@@ -170,12 +170,6 @@ These are also shown when pressing `F1` on a Isocline prompt. We use `^` as a sh
 See the [`app.d`](./source/app.d) file for a more comprehensive example that demonstrates syntax highlighting, custom completion, and other advanced features.
 
 
-## Documentation
-
-* **D Bindings:**  Refer to the [DDoc documentation](YOUR_DDOC_LINK_HERE) for a detailed description of the D API.
-* **Isocline C Library:** Consult the [Isocline documentation](https://daanx.github.io/isocline/) for in-depth information about the underlying C library, including BBCode styling, keyboard shortcuts, and customization options.
-
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests.  When submitting code, please adhere to the existing code style and ensure your changes are well-documented.
