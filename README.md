@@ -18,24 +18,6 @@ Isocline offers rich editing capabilities, including multi-line input, syntax hi
 
 ## Installation
 
-**Using dub:**
-
-The easiest way to install isocline-d is using [dub](https://dub.pm).  Add the following dependency to your `dub.json` file:
-
-```json
-"dependencies": {
-    "isocline-d": "~>1.0.0"
-}
-```
-
-and run dub to build:
-
-```bash
-dub build
-```
-
-**Manual Installation:**
-
 1. Clone this repository:
 
    ```bash
@@ -103,6 +85,7 @@ $ ./test/Example
 Isocline tries to be as compatible as possible with standard [GNU Readline] key bindings.
 
 ### Overview:
+
 ```apl
        home/ctrl-a       cursor     end/ctrl-e
          ┌─────────────────┼───────────────┐    (navigate)
