@@ -1,8 +1,5 @@
 # Isodline: D Bindings for the Isocline Library
 
-[![dub](https://img.shields.io/dub/l/vibe-d.svg)](https://code.dlang.org/packages/isocline-d)
-[![GitHub release](https://img.shields.io/github/release/YourGitHubUsername/isocline-d.svg)](https://github.com/YourGitHubUsername/isocline-d/releases)
-
 
 This project provides D bindings for the [Isocline](https://github.com/daanx/isocline) library, a powerful and portable alternative to GNU Readline. 
 
